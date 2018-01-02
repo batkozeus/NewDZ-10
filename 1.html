@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 
+	Создать компонент счетчика времени.
+
+	Простой прямоугольник который показывает время со старта упражения и до того момента когда все клавиши были верно нажаты.
+
+	На входе есть строка символов для упражнения.
+
+	Написать метод countKPS() который,по окончанию упражнения, возвращает кол-во верных клавишь в секунду которое было нажато за время выполнения упражнения.
+
+	Записать результат в localStorage, но только в том случае если он лучше чем тот что уже есть в localStorage.
+
+	При повторном посещении страницы надо брать то что записано в localStorage и вешать на страницу, это будет компонент лучшего результата.
+ -->
+ 
+	<div class="wrapper">
+
+		<p class="timer"><span class="min">00</span>:<span class="sec">00</span>:<span class="miliSec">00</span></p>
+		<div class="exercise"></div>
+		<div class="keyboard"></div>
+		<div class="count">Количесвтво верных клавиш в секунду</div>
+		<div class="storageCount">Ваш рекорд</div>
+
+
+	</div>
+
+
+
+<script src="1.js"></script>
+</body>
+</html>

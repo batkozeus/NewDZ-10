@@ -1,0 +1,35 @@
+.wrapper {
+	margin: 40px auto;
+	width: 720px;
+	/*min-width: 400px;*/
+	text-align: center;
+	border: 2px solid gold;
+	border-radius: 15px;
+	padding: 2%;
+	background: #bbecec;
+}
+
+.timer {
+  height: 40px;
+  width: 120px;
+  margin: auto;
+  font-size: 2rem;
+  border: 4px solid blue;
+  border-radius: 10px;
+  padding: 4px 0;
+}
+
+.exercise {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.keyboard button {
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+.count, .storageCount {
+  margin: 8px;
+  font-size: 20px;
+}
